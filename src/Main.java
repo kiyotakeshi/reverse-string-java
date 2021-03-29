@@ -22,5 +22,10 @@ public class Main {
         }
 
         System.out.println(reverseString); // nodustak
+
+        String japaneseOriginal = "日本語がひっくりかえる";
+        char[] reverseChar = StringToCharReverse.charToString(japaneseOriginal);
+        japaneseOriginal = new String(reverseChar);
+        System.out.println(japaneseOriginal); // るえかりくっひが語本日
     }
 }
